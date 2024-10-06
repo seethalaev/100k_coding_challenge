@@ -14,3 +14,16 @@ day 3
     4.switch.c
 
 day 4
+    1.even.c
+    2.prime.c
+    3.simple break.c
+    4.simple ontinue.c
+    5.simplefor.c
+    6.simplestar.c
+    7.starrev.c
+    8.sumofnaturalnumbers.c
+day 5
+    1.array.c
+    2.array2.c
+    3.searchkey.c
+    4.sumarray.c
