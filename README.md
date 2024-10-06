@@ -27,3 +27,10 @@ day 5
     2.array2.c
     3.searchkey.c
     4.sumarray.c
+day 6
+    1.simplechar.c
+    2.multidimarray.c
+    3.wit argument without return type
+    4.with argument with return type
+    5.without argument without return type
+    6.without argument with return type
