@@ -7,6 +7,10 @@ day 1
     4.temp.c
     5.temp without 3 rd variable.c
 
-day 2
-
 day 3
+    1.elseif.c
+    2.greater.c
+    3.posneg.c
+    4.switch.c
+
+day 4
