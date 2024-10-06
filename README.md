@@ -22,6 +22,7 @@ day 4
     6.simplestar.c
     7.starrev.c
     8.sumofnaturalnumbers.c
+    
 day 5
     1.array.c
     2.array2.c
