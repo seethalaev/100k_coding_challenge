@@ -19,9 +19,7 @@ day 4
     3.simple break.c
     4.simple ontinue.c
     5.simplefor.c
-    6.simplestar.c
-    7.starrev.c
-    8.sumofnaturalnumbers.c
+   
 
 day 5
     1.array.c
