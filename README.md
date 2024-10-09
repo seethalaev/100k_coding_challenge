@@ -5,7 +5,7 @@ day 1
     2.sum.c
     3.average.c
     4.temp.c
-    5.temp without 3 rd variable.c
+    
 
 day 3
     1.elseif.c
@@ -28,7 +28,7 @@ day 5
     2.array2.c
     3.searchkey.c
     4.sumarray.c
-    
+
 day 6
     1.simplechar.c
     2.multidimarray.c
