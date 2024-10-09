@@ -5,7 +5,7 @@ day 1
     2.sum.c
     3.average.c
     4.temp.c
-    
+    5.temp without 3 rd variable.c
 
 day 3
     1.elseif.c
