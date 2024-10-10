@@ -11,7 +11,7 @@ int main()
     
     for(i=0;i<limit;i++)
     {
-    
+    sum=sum+values[i];
     }
     printf("%d",sum);
 }
