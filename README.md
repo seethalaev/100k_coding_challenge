@@ -38,4 +38,4 @@ day 6
     5.without argument without return type
     6.without argument with return type
     7.for2.c
-    
+    8.loop.c
