@@ -9,7 +9,7 @@ int main()
         for(j=0;j<i;j++)
                 {
                     printf("inside second loop");
-                      printf("*"); 
+                     printf("*"); 
                 }
              printf("\n");
         }      
