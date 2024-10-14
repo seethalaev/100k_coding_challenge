@@ -39,3 +39,4 @@ day 6
     6.without argument with return type
     7.for2.c
     8.loop.c
+    9.loop3.c
