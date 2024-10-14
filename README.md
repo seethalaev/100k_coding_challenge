@@ -19,7 +19,7 @@ day 4
     3.simple break.c
     4.simple ontinue.c
     5.simplefor.c
-     6.simplestar.c
+    6.simplestar.c
     7.starrev.c
     8.sumofnaturalnumbers.c
    
@@ -37,3 +37,5 @@ day 6
     4.with argument with return type
     5.without argument without return type
     6.without argument with return type
+    7.for2.c
+    
