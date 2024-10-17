@@ -19,6 +19,7 @@ void get_account_balance()
 }
 void withdraw(int a)
 {
+    printf("Money withdrawn %d\n",a);
     acountblnce=acountblnce-a;
-    
+    printf("Account balance after money withdrwal %d\n",acountblnce);
 }
