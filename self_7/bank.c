@@ -12,6 +12,7 @@ int main()
   get_account_balance();
   withdraw(500);
   deposit_money(10);
+   get_account_balance();
 }
 void get_account_balance()
 {
@@ -25,9 +26,9 @@ void withdraw(int a)
 }
  int deposit_money(int b)
 {
-   acountblnce=acountblnce+b;
-   printf("Deposit money you want to \n");
-   scanf("%d",&b);
-   return acountblnce;
   
+   printf("Deposit money want to \n");
+   scanf("%d",&b);
+   acountblnce=acountblnce+b;
+   return acountblnce;
 }
