@@ -9,7 +9,7 @@ public class FunctionSample {
         System.out.println("enter two numbers");
         int num1=s.nextInt();
         int num2=s.nextInt();
-
+        
         int result=sum(num1,num2);
         System.out.println("Result is :"+result);
     }
