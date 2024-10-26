@@ -21,10 +21,7 @@ class Student
         System.out.println("=====================");
     }
 
-    void getTotal()
-    {
-        total=maths+phy+chem;
-    }
+    
     void AddStudentData()
     {  
         System.out.println("Enter name :");
