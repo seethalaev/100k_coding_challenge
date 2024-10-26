@@ -20,7 +20,10 @@ class Student
         System.out.println("Total mark is:"+total);
         System.out.println("=====================");
     }
-
+    void getTotal()
+    {
+        total=maths+phy+chem;
+    }
     
     void AddStudentData()
     {  
