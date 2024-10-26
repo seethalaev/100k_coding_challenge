@@ -1,5 +1,7 @@
 package SchoolProject;
 
+import java.util.Scanner;
+
 class Student
 {
     String name;
@@ -7,6 +9,7 @@ class Student
     int phy;
     int chem;
     int total=0;
+    Scanner s = new Scanner(System.in);
         
     void getData()
     {
@@ -23,25 +26,34 @@ class Student
     {
         total=maths+phy+chem;
     }
+    void AddStudentData()
+    {  
+        System.out.println("Enter name :");
+        name=s.nextLine();
+        System.out.println("Enter chemistry mark :");
+        chem=s.nextInt();
+        System.out.println("Enter maths mark :");
+        maths=s.nextInt();
+        System.out.println("Enter physics mark :");
+        phy=s.nextInt();
+    }
 }
 public class Home 
 {
     public static void main(String args[])
     {
        Student s1=new Student();
-       s1.name="arun";
-       s1.maths=50;
-       s1.phy=20;
-       s1.chem=30;
+
+       // hard coding class variables
+      //  s1.name="arun";
+    //    s1.maths=50;
+    //    s1.phy=20;
+    //    s1.chem=30;
+
+       s1.AddStudentData();
+       s1.getData();
        s1.getTotal();
        s1.getData();
-
-       Student s2=new Student();
-       s2.name="amal";
-       s2.maths=60;
-       s2.phy=30;
-       s2.chem=40;
-       s2.getTotal();
-       s2.getData();    
+       
     }
 }
