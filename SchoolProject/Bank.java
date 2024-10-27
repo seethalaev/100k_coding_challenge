@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Details
 {
   String name;
-  int acbal;
+  int accountbalance;
   int moneyadd;
   Scanner s=new Scanner(System.in);
 
@@ -14,25 +14,25 @@ class Details
     System.out.println("Enter user name");
     name=s.nextLine();
     System.out.println("Enter accountbalance");
-    acbal=s.nextInt();
+    accountbalance=s.nextInt();
   }
 
   void ShowaccountBalance()
 
 {
    System.out.println("Name :"+name);
-   System.out.println("Balance :"+acbal);
+   System.out.println("Balance :"+accountbalance);
 }
 
   void withDraw(int a)
   {
-    acbal=acbal-a;
-    System.out.println("after withdarw :"+acbal);
+    accountbalance=accountbalance-a;
+    System.out.println("after withdarw :"+accountbalance);
     s.nextInt();
   }
   void deposite(int moneyadd)
   {
-    acbal=acbal+moneyadd;
+    accountbalance=accountbalance+moneyadd;
     System.out.println("Deposite :"+moneyadd);
     //s.nextInt();
   }
