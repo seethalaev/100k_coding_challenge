@@ -30,11 +30,11 @@ class Details
     System.out.println("after withdarw :"+accountbalance);
     s.nextInt();
   }
-  void deposite(int moneyadd)
+  void deposite()
   {
-    accountbalance=accountbalance+moneyadd;
     System.out.println("Deposite :"+moneyadd);
-    //s.nextInt();
+    accountbalance=accountbalance+moneyadd;
+    s.nextInt();
   }
 
 }
@@ -46,8 +46,7 @@ public class Bank
         a.AddaccountBalance();
         a.ShowaccountBalance();
         a.withDraw(500);
-        a.ShowaccountBalance();
-        a.deposite(moneyadd);
-        a.ShowaccountBalance();
+        a.deposite();
+        //a.ShowaccountBalance();
 }
 }
