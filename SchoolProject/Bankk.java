@@ -6,10 +6,9 @@ class Details
 {
   String name;
   int accountbalance;
-  int moneyadd;
   Scanner s=new Scanner(System.in);
 
-  void AddaccountBalance()
+  void AddUserDetails()
   {
     System.out.println("Enter user name");
     name=s.nextLine();
@@ -27,15 +26,14 @@ class Details
   void withDraw(int a)
   {
     accountbalance=accountbalance-a;
-    System.out.println("after withdarw :"+accountbalance);
-   //s.nextInt();
+    System.out.println("after withdarw :"+ accountbalance);
+
   }
   void deposite()
   {
-    System.out.println("Deposite :"+moneyadd);
+    System.out.println("Deposite :");
+    int moneyadd=s.nextInt();
     accountbalance=accountbalance+moneyadd;
-   // s.nextInt();
-
   }
 
 }
@@ -44,7 +42,7 @@ public class Bankk
     public static void main(String[] args)
     {
         Details a=new Details();
-        a.AddaccountBalance();
+        a.AddUserDetails();
         a.ShowaccountBalance();
         a.withDraw(500);
         a.deposite();
