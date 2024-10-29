@@ -1,17 +1,21 @@
 package oops;
 
 class Rectangle{
+    //data members or attributes
     int length;
     int breadth;
 
+
+    //member functions or class methods
     void getData()
     {
         System.out.println("length is :"+ length);
         System.out.println("breadth is:"+ breadth);
     }
+    
 }
 
-public class Home {
+public class Home { 
     public static void main(String[] args) {
         System.out.println("arun");
         Rectangle R1 = new Rectangle();
