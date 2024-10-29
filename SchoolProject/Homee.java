@@ -4,6 +4,12 @@ import java.util.Scanner;
 
     class Girl
     {
+        String name;
+        int maths;
+        int chem;
+        String subj;
+        int total=0;
+        Scanner s=new Scanner(System.in);
     
     void AddData()
     {
