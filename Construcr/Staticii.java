@@ -1,9 +1,9 @@
 
-
 package Construcr;
 
 class Student {
-    static String name;  // Static variable shared by all Student objects
+    
+    String name;  // Static variable shared by all Student objects //static String name;
     int mark;            // Instance variable unique to each object
 }
 
