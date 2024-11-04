@@ -42,4 +42,9 @@ import java.util.Scanner;
     public static void main(String args[])
     {
             Girl g=new Girl();
-   }}
+
+            g.AddData();
+            g.GetTotal();
+            g.ShowData();
+            g.GetTotal();
+    }}
