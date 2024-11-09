@@ -22,3 +22,16 @@ int main()
   deposit_money(20);
   get_account_balance();
 }
+void get_account_balance()
+{
+    printf("your account balance is %d\n",acountblnce);
+}
+void withdraw(int a)
+{
+    printf("Money withdrawn %d\n",a);
+    acountblnce=acountblnce-a;
+}
+ void deposit_money(int b)
+{
+ acountblnce=acountblnce+b;
+}
