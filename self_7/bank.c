@@ -28,8 +28,6 @@ void get_account_balance()
 }
 void withdraw(int a)
 {
-    printf("Money withdrawn %d\n",a);
-    acountblnce=acountblnce-a;
 }
  void deposit_money(int b)
 {
