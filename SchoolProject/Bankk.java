@@ -6,6 +6,7 @@ class Details
 {
   String name;
   int accountbalance;
+  int moneyadd;
   Scanner s=new Scanner(System.in);
 
   void AddUserDetails()
@@ -23,19 +24,13 @@ class Details
    System.out.println("Balance :"+accountbalance);
 }
 
-  void withDraw(int a)
-  {
-    accountbalance=accountbalance-a;
-    System.out.println("after withdarw :"+ accountbalance);
-
-  }
+  
   void deposite()
   {
     System.out.println("Deposite :");
-    int moneyadd=s.nextInt();
+    moneyadd=s.nextInt();
     accountbalance=accountbalance+moneyadd;
   }
-
 }
 public class Bankk 
 {
