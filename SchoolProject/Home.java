@@ -3,13 +3,6 @@ package SchoolProject;
 import java.util.Scanner;
 class Student
 {
-    String name;
-    int maths;
-    int phy;
-    int chem;
-    int total=0;
-    Scanner s = new Scanner(System.in);
-
     void getData()
     {
         System.out.println("=====================");
