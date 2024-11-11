@@ -12,13 +12,6 @@ class Student
 
     void getData()
     {
-        System.out.println("=====================");
-        System.out.println("Name is:"+name);
-        System.out.println("Maths is:"+maths);
-        System.out.println("Physics is:"+phy);
-        System.out.println("Chemistry is:"+chem);
-        System.out.println("Total mark is:"+total);
-        System.out.println("=====================");
     }
     void getTotal()
     {
