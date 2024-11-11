@@ -22,7 +22,6 @@ class Student
     }
     void getTotal()
     {
-        total=maths+phy+chem;
     }
     
     // void AddStudentData()
