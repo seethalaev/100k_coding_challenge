@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+void get_account_balance();
+void withdraw(int a);
+void deposit_money(int b);
 
 char name[50]="shilpa";
 int acountblnce=12000;
