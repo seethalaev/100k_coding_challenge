@@ -42,11 +42,6 @@ public class Bankk
 {
     public static void main(String[] args)
     {
-        Details a=new Details();
-        a.AddUserDetails();
-        a.ShowaccountBalance();
-        a.withDraw(500);
-        a.deposite();
-        a.ShowaccountBalance();
+       
 }
 }
