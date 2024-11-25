@@ -7,6 +7,7 @@ class Details
   String name;
   int accountbalance;
   int moneyadd;
+
   Scanner s=new Scanner(System.in);
 
   void AddUserDetails()
