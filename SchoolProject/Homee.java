@@ -43,8 +43,4 @@ import java.util.Scanner;
     {
             Girl g=new Girl();
 
-            g.AddData();
-            g.GetTotal();
-            g.ShowData();
-            g.GetTotal();
     }}
