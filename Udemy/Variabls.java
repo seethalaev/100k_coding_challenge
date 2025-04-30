@@ -7,7 +7,7 @@ class Variabls
 	   public static void main(String args[])
 
 	{
-		byte b;
+		byte b=5;
          	System.out.println(b);
 							     
 
