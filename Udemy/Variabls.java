@@ -9,7 +9,7 @@ class Variabls
 	{
 		byte b=3;
          	System.out.println(b);
-		 b=25;					     
+		 b=2500;					     
 		System.out.println(b);
 							     
 
