@@ -6,6 +6,7 @@ public class Dta
     {
         System.out.println("Integre:" + Integer.MIN_VALUE);
         System.out.println("Integre:" + Integer.MAX_VALUE);
-        
+        System.out.println("Integre:" + Integer.BYTES);
+        System.out.println("Byte:" + Byte.MIN_VALUE);
     }
 }
