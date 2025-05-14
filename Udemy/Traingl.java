@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Traingl 
 {
-public static void main (String args[])
+//public static void main (String args[])
 {
     float l,b,traig;
     System.out.println("ENTER lng,br,hgt");
