@@ -7,8 +7,8 @@ public class InDe
         int x=5,y;
         y=x++; //y=++x -6,6
         System.out.println(x+" "+y);
-        int a=3, b=2,z;
-        z=2*++a +3 *b++;
+        int a=4, b=3,z;
+        z=2*a++ +3 *++b;
         System.out.println(z+" "+a);
 
     }
