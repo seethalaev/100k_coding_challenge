@@ -21,6 +21,6 @@ public class Srt
 
         String str6=new String("www.selenium.com");
         System.out.println(str6.indexOf("selenium"));
-
+        System.out.println(str6.indexOf(".",4));
     }
 }
