@@ -16,6 +16,7 @@ public class Srt
        
         String str5=new String("Mr.shahrukh khan");
         System.out.println(str5.startsWith("h",4));
+        System.out.println(str5.endsWith("n"));
 
 
     }
