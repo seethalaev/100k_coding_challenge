@@ -19,5 +19,8 @@ public class Srt
         System.out.println(str5.endsWith("n"));
         System.out.println(str5.indexOf("."));
 
+        String str6=new String("www.selenium.com");
+        System.out.println(str6.indexOf("selenium"));
+
     }
 }
