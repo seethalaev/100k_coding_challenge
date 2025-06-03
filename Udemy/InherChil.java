@@ -12,6 +12,11 @@ public class InherChil extends InherPara
     }
     public static void main(String[] args) 
     {
-        
+        InherChil cd=new InherChil();
+        cd.colour();
+        cd.Break();
+        cd.Engine();
+        cd.Gear();
+        cd.audeosystem();
     }
 }
