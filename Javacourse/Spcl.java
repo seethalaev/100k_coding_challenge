@@ -13,8 +13,5 @@ public class Spcl
        //  System.out.println(str2.replaceAll("[\\s]+", " "));
         System.out.println(str2.replaceAll("[\\s]+","  ").trim());
 
-        //length of words
-        String words[]=str2.split("[//s]");
-        System.out.println(words.length);
     }
 }
