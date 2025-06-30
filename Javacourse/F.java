@@ -7,15 +7,13 @@ public class F
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter n");
+        System.out.println("enter limit");
         int n=sc.nextInt();
-
-        for(int i=1;i<n;i++)
+        int sum=0;
+        for(int i=0;i<n;i++)
         {
-            int mu=i*n;
-            
-
-            System.out.println(i+"*"+n+"="+mu);
+            sum=sum+i;
         }
+        System.out.println("sum is "+sum);
 }}
 
