@@ -7,17 +7,18 @@ public class F
     public static void main(String args[])
     {
        // Scanner sc=new Scanner(System.in);
-       // System.out.println("enter limit");
-      int n=2345;
-      int i=0;
-      int count=0;
-      
+      int n=153;
+      int sum=0;
+      int rev=0;
       while(n>0)
       {
+        rev=n%10;
+        System.out.println(rev);
+        sum=sum+rev*rev*rev;
+        System.out.println(sum);
         n=n/10;
-        count++;
       }
-      System.out.println(count);
-          }    }
+     
+     }    }
 
 
