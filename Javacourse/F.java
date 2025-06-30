@@ -8,12 +8,12 @@ public class F
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter limit");
-        int n=sc.nextInt();
-        int sum=0;
-        for(int i=0;i<n;i++)
+        int n=5;
+        int fact=1;
+        for(int i=1;i<n;i++)
         {
-            sum=sum+i;
+            fact=fact*i;
+            System.out.println(fact);
         }
-        System.out.println("sum is "+sum);
 }}
 
