@@ -8,17 +8,26 @@ public class F
     {
        // Scanner sc=new Scanner(System.in);
       int n=153;
+      int i=0;
+      int r=1;
       int sum=0;
-      int rev=0;
+      int term=n;
       while(n>0)
       {
-        rev=n%10;
-        System.out.println(rev);
-        sum=sum+rev*rev*rev;
-        System.out.println(sum);
-        n=n/10;
+        r=n%10;
+        System.out.println(r);
+        sum=sum+r*r*r;
+        n=n/10; 
       }
-     
-     }    }
+      System.out.println(sum);
+      if(term==sum)
+      {
+        System.out.println("armstrong");
+      }
+      else{
+        System.out.println("not armstrong");
+      }
+    }
+     }    
 
 
